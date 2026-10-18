@@ -1,0 +1,20 @@
+# ==========================================
+#       SISTEMA DE INVENTARIO PEAK
+# ==========================================
+
+
+# 1. Catalogo de productos
+def crear_catalogo():
+    codigos = ["775001", "775002", "775003", "775004"]
+
+    nombres = [
+        "Zapatilla deportiva",
+        "Zapatilla deportiva",
+        "Zapatilla deportiva",
+        "Zapatilla deportiva"
+    ]
+
+    colores = ["Verde", "Rojo", "Azul", "Naranja"]
+    tallas = [40, 40, 41, 42]
+
+    return codigos, nombres, colores, tallas
